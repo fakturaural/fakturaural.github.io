@@ -101,7 +101,7 @@ body {
       background-position: -43px 90px;
     }
   }
-  
+
   @keyframes bar {
     0% {
       height: 534px;
@@ -187,11 +187,28 @@ body {
     -moz-animation: bar 0.5s infinite;
     -webkit-animation: bar 0.5s infinite;
     animation: bar 0.5s infinite;
+    pointer-events: none;
   }
-  
+
   .center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    padding-top: 50%;
+  }
+  .icon{
+    display: inline-block;
+    background-size: cover;
+    fill:white;
+  }
+  .social a{
+    padding-right: 15px;
   }
