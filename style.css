@@ -165,8 +165,9 @@ body {
     text-transform: uppercase;
     font: 15px "Michroma", helvetica, sans-serif;
     letter-spacing: 0.6em;
-    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=20);
-    text-shadow: 2px 0 1px #f6050a, -2px 0 1px #1cf2f2;
+    /* background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=20); */
+    background-color: #000;
+text-shadow: 2px 0 1px #f6050a, -2px 0 1px #1cf2f2;
     -moz-animation: noise 0.3s infinite;
     -webkit-animation: noise 0.3s infinite;
     animation: noise 0.3s infinite;
@@ -183,7 +184,8 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=40);
+ background-color: #000;
+    /* background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=40); */
     -moz-animation: bar 0.5s infinite;
     -webkit-animation: bar 0.5s infinite;
     animation: bar 0.5s infinite;
